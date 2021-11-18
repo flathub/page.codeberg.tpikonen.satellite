@@ -4,8 +4,6 @@
   "runtime-version": "41",
   "sdk": "org.gnome.Sdk",
   "command": "satellite",
-  "rename-icon": "satellite",
-  "copy-icon": false,
   "rename-desktop-file": "satellite.desktop",
   "finish-args": [
     "--socket=fallback-x11",
