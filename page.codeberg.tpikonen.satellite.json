@@ -4,8 +4,6 @@
   "runtime-version": "41",
   "sdk": "org.gnome.Sdk",
   "command": "satellite",
-  "rename-icon": "satellite",
-  "copy-icon": false,
   "rename-desktop-file": "satellite.desktop",
   "finish-args": [
     "--socket=fallback-x11",
@@ -25,8 +23,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://codeberg.org/tpikonen/satellite/archive/0.2.5.tar.gz",
-          "sha256": "15a4f64aecbb5bb5ad86bbca9529850f6383f5c3bc5a637d5f705da02b42dd89"
+          "url": "https://codeberg.org/tpikonen/satellite/archive/0.2.6.tar.gz",
+          "sha256": "c16ed3f71fefa9c2f3c6b681246b9ab69a7dd5a5c7246aa4ce83b557d6e8fd7b"
         }
       ],
       "buildsystem": "simple",
