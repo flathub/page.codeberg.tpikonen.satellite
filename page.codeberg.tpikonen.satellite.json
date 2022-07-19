@@ -1,7 +1,7 @@
 {
   "app-id": "page.codeberg.tpikonen.satellite",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "41",
+  "runtime-version": "42",
   "sdk": "org.gnome.Sdk",
   "command": "satellite",
   "rename-desktop-file": "satellite.desktop",
@@ -29,7 +29,7 @@
       ],
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --verbose --no-index --no-deps --no-build-isolation --use-feature=in-tree-build --prefix=${FLATPAK_DEST} ./"
+        "pip3 install --verbose --no-index --no-deps --no-build-isolation --prefix=${FLATPAK_DEST} ./"
       ],
       "post-install": [
         "install -Dm644 data/appdata.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.appdata.xml"
