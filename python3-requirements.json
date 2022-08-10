@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/dd/23/a1c04fb3ea8d57d4b46cf2956c99a62dfbe009bbe091babeef90cc3d0ef6/gpxpy-1.4.2.tar.gz",
-                    "sha256": "0832041899cdfdc5a607291bbef3d73042e16ffcecc3f2cb9631b699db0bb53f"
+                    "url": "https://files.pythonhosted.org/packages/2a/c1/da7df89bd25eea5f464e335b2471f78c1e8f4d6ea2b2410bd89282fcf3c5/gpxpy-1.5.0.tar.gz",
+                    "sha256": "e6993a8945eae07a833cd304b88bbc6c3c132d63b2bf4a9b0a5d9097616b8708"
                 }
             ]
         },
@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/88/b9/a0fed4563f5c73eb8f4d7bb115a455863c5327ae824ac1772e2a4b1b95ee/pynmea2-1.18.0.tar.gz",
-                    "sha256": "e340d3327ebf09683d09466a52541dfcccb98bde9cb661cab2d3eeb72ea424ad"
+                    "url": "https://files.pythonhosted.org/packages/c9/13/6117f735c3e8083bfce0ccd31a1d561fc2adb0e0e2d1ab3ace12256a3513/pynmea2-1.18.0-py3-none-any.whl",
+                    "sha256": "098f9ffd89c4a6c5e137b8b59e5b38194888d4a557c50b003ebcf2c3c15ec22e"
                 }
             ]
         },
@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/58/56/3e84f2c1f2e39b9ea132460183f123af41e3b9c8befe222a35636baa6a5a/pydbus-0.6.0.tar.gz",
-                    "sha256": "4207162eff54223822c185da06c1ba8a34137a9602f3da5a528eedf3f78d0f2c"
+                    "url": "https://files.pythonhosted.org/packages/92/56/27148014c2f85ce70332f18612f921f682395c7d4e91ec103783be4fce00/pydbus-0.6.0-py2.py3-none-any.whl",
+                    "sha256": "66b80106352a718d80d6c681dc2a82588048e30b75aab933e4020eb0660bf85e"
                 }
             ]
         }
