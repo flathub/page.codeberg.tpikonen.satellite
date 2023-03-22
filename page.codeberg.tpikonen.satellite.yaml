@@ -1,6 +1,6 @@
 app-id: page.codeberg.tpikonen.satellite
 runtime: org.gnome.Platform
-runtime-version: "43"
+runtime-version: "44"
 sdk: org.gnome.Sdk
 command: satellite
 rename-desktop-file: satellite.desktop
@@ -15,11 +15,26 @@ finish-args:
 cleanup: []
 modules:
   - python3-requirements.json
+  - name: ModemManager
+    config-opts:
+        - --without-udev
+        - --with-udev-base-dir=/app/lib/udev
+        - --with-systemdsystemunitdir=/app/lib/systemd/system
+        - --without-examples
+        - --without-tests
+        - --without-mbim
+        - --without-qmi
+        - --without-qrtr
+        - --without-man
+    sources:
+      - type: archive
+        url: https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/1.20.6/ModemManager-1.20.6.tar.gz
+        sha256: d3e8112810e48ba32e80757fced218cf65b135b5a2987dad6b431d8cfbba765f
   - name: satellite
     sources:
       - type: archive
-        url: https://codeberg.org/tpikonen/satellite/archive/0.3.1.tar.gz
-        sha256: 3943b5ee809579b96877ca2fd49e3faca648114bfad07273cb1247c7c4608c13
+        url: https://codeberg.org/tpikonen/satellite/archive/0.4.0.tar.gz
+        sha256: 743ef3ce0abb14856fe36dadcb78854a9d5acbafd1ee33a972a0ae75c30ad5d3
     buildsystem: simple
     build-commands:
       - pip3 install --verbose --no-index --no-deps --no-build-isolation --prefix=${FLATPAK_DEST} ./
