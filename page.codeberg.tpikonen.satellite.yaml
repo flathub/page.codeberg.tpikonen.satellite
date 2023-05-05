@@ -12,6 +12,7 @@ finish-args:
   - --talk-name=org.gtk.vfs.*
   - --system-talk-name=org.freedesktop.ModemManager1.*
   - --filesystem=xdg-documents/satellite-tracks:create
+  - --filesystem=/run/gnss-share.sock:ro
 cleanup: []
 modules:
   - python3-requirements.json
