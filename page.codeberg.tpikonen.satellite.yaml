@@ -1,6 +1,6 @@
 app-id: page.codeberg.tpikonen.satellite
 runtime: org.gnome.Platform
-runtime-version: "44"
+runtime-version: "45"
 sdk: org.gnome.Sdk
 command: satellite
 rename-desktop-file: satellite.desktop
@@ -34,8 +34,8 @@ modules:
   - name: satellite
     sources:
       - type: archive
-        url: https://codeberg.org/tpikonen/satellite/archive/0.4.1.tar.gz
-        sha256: 21b31ac9a06dc129cca9f0e80a92d75c9574d8a585eb91dffd49eca060d96f84
+        url: https://codeberg.org/tpikonen/satellite/archive/0.4.2.tar.gz
+        sha256: efab98f3e17cd177ac19cd1fd075ae336281acf7c887b4473f358dc59f470870
     buildsystem: simple
     build-commands:
       - pip3 install --verbose --no-index --no-deps --no-build-isolation --prefix=${FLATPAK_DEST} ./
