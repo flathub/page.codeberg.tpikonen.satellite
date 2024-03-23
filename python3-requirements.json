@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/2a/c1/da7df89bd25eea5f464e335b2471f78c1e8f4d6ea2b2410bd89282fcf3c5/gpxpy-1.5.0.tar.gz",
-                    "sha256": "e6993a8945eae07a833cd304b88bbc6c3c132d63b2bf4a9b0a5d9097616b8708"
+                    "url": "https://files.pythonhosted.org/packages/44/9f/62df6c1e52462bdd04275b36cec49efa9e8af7e7b834499eb288f73dcfbc/gpxpy-1.6.2-py3-none-any.whl",
+                    "sha256": "289bc2d80f116c988d0a1e763fda22838f83005573ece2bbc6521817b26fb40a"
                 }
             ]
         },
