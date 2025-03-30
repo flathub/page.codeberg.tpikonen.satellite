@@ -13,6 +13,7 @@ finish-args:
   - --system-talk-name=org.freedesktop.ModemManager1.*
   - --filesystem=xdg-documents/satellite-tracks:create
   - --filesystem=/run/gnss-share.sock:ro
+  - --filesystem=/run/gps-share.sock:ro
 cleanup: []
 modules:
   - python3-requirements.json
