@@ -1,6 +1,6 @@
 app-id: page.codeberg.tpikonen.satellite
 runtime: org.gnome.Platform
-runtime-version: "47"
+runtime-version: "48"
 sdk: org.gnome.Sdk
 command: satellite
 rename-desktop-file: satellite.desktop
@@ -13,6 +13,7 @@ finish-args:
   - --system-talk-name=org.freedesktop.ModemManager1.*
   - --filesystem=xdg-documents/satellite-tracks:create
   - --filesystem=/run/gnss-share.sock:ro
+  - --filesystem=/run/gps-share.sock:ro
 cleanup: []
 modules:
   - python3-requirements.json
@@ -36,8 +37,8 @@ modules:
   - name: satellite
     sources:
       - type: archive
-        url: https://codeberg.org/tpikonen/satellite/archive/0.9.0.tar.gz
-        sha256: 65abb6d5477408c018eb3a482c9ec98c69e20d651a632e3ce666d9f9b6eacb39
+        url: https://codeberg.org/tpikonen/satellite/archive/0.9.1.tar.gz
+        sha256: 0d0a637acc56d4c404f84e7240c3897e96c34045e1690883abbd2b479b855001
     buildsystem: simple
     build-commands:
       - pip3 install --verbose --no-index --no-deps --no-build-isolation --prefix=${FLATPAK_DEST} ./
