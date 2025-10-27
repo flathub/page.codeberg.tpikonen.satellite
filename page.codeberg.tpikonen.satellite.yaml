@@ -1,6 +1,6 @@
 app-id: page.codeberg.tpikonen.satellite
 runtime: org.gnome.Platform
-runtime-version: "48"
+runtime-version: "49"
 sdk: org.gnome.Sdk
 command: satellite
 rename-desktop-file: satellite.desktop
@@ -32,8 +32,8 @@ modules:
       - -Dudevdir=/app/lib/udev
     sources:
       - type: archive
-        url: https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/1.22.0/ModemManager-1.22.0.tar.gz
-        sha256: 6c8f8720737a3788e394c700f36236278c9de09d76069a079e6f1daaf08b2768
+        url: https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/1.24.2/ModemManager-1.24.2.tar.gz
+        sha256: fbc75adcc0d7b0565f256e7ff4e8872b0a37c4413ff576665f7470932d9c1b68
   - name: satellite
     sources:
       - type: archive
