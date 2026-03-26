@@ -14,7 +14,10 @@ finish-args:
   - --filesystem=xdg-documents/satellite-tracks:create
   - --filesystem=/run/gnss-share.sock:ro
   - --filesystem=/run/gps-share.sock:ro
-cleanup: []
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/gir-1.0
 modules:
   - python3-requirements.json
   - name: ModemManager
